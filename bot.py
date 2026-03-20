@@ -8,8 +8,8 @@ import os
 api_key = os.getenv("rkemg7pJzb1oexHk6viG1sXCz8yFF5kq70UGoWWrD26qySk3r7dQ8MeMO8OxzfDj")
 api_secret = os.getenv("pUc0bwjt5BzmSOmKO04NxmQKMAql4S5twqnWbQkpyhdXjvvEwXMaBf5i0PEdC8Wu")
 
-client = Client(rkemg7pJzb1oexHk6viG1sXCz8yFF5kq70UGoWWrD26qySk3r7dQ8MeMO8OxzfDj, pUc0bwjt5BzmSOmKO04NxmQKMAql4S5twqnWbQkpyhdXjvvEwXMaBf5i0PEdC8Wu)
-
+client = Client(rkemg7pJzb1oexHk6viG1sXCz8yFF5kq70UGoWWrD26qySk3r7dQ8MeMO8OxzfDj,pUc0bwjt5BzmSOmKO04NxmQKMAql4S5twqnWbQkpyhdXjvvEwXMaBf5i0PEdC8Wu)
+client.timestamp_offset = 0
 symbol = "ETHUSDT"
 capital = 1000
 risk_per_trade = 0.02

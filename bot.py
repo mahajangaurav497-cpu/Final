@@ -5,8 +5,8 @@ import time
 import os
 
 # --- API KEYS (from environment variables) ---
-api_key = os.getenv("API_KEY")
-api_secret = os.getenv("API_SECRET")
+api_key = os.getenv("rkemg7pJzb1oexHk6viG1sXCz8yFF5kq70UGoWWrD26qySk3r7dQ8MeMO8OxzfDj")
+api_secret = os.getenv("pUc0bwjt5BzmSOmKO04NxmQKMAql4S5twqnWbQkpyhdXjvvEwXMaBf5i0PEdC8Wu")
 
 client = Client(api_key, api_secret)
 

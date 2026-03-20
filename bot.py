@@ -8,7 +8,7 @@ import os
 api_key = os.getenv("rkemg7pJzb1oexHk6viG1sXCz8yFF5kq70UGoWWrD26qySk3r7dQ8MeMO8OxzfDj")
 api_secret = os.getenv("pUc0bwjt5BzmSOmKO04NxmQKMAql4S5twqnWbQkpyhdXjvvEwXMaBf5i0PEdC8Wu")
 
-client = Client(api_key, api_secret)
+client = Client(rkemg7pJzb1oexHk6viG1sXCz8yFF5kq70UGoWWrD26qySk3r7dQ8MeMO8OxzfDj, pUc0bwjt5BzmSOmKO04NxmQKMAql4S5twqnWbQkpyhdXjvvEwXMaBf5i0PEdC8Wu)
 
 symbol = "ETHUSDT"
 capital = 1000
